@@ -16,7 +16,7 @@ spec:
         app: gateway
     spec:
       containers:
-        - name: vaccine
+        - name: gateway
           image: anticorona.azurecr.io/gateway:latest
           ports:
             - containerPort: 8080
